@@ -21,95 +21,77 @@ import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
   name: "Amrita Bhasin",
-  location: "Menlo Park, CA",
+  location: "San Francisco, CA",
   about:
     "Founder, Builder and Hacker",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
+    "I am the Co-Founder Sotira, a startup to enable instant commerce companies to offload and monetize surplus inventory. I'm a builder at heart and I love hacking on random side projects that intrigue me. Areas I'm curious about are recommerce, circular economy, reverse logistics, third spaces, network states, tokentization and building tech for underserved industries largely ignored by Silicon Valley.",
+///notsurewherebelowgoes
+   past professional experience:
+    "I have previous experience at Google working with SMBs and turned down an offer on Meta's commerce operations team to build Sotira.",
+  
   avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "amrita@sotira.co",
     social: [
       {
-        name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
-        icon: GitHubIcon,
-      },
-      {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/amrita-bhasin/",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://twitter.com/amritakbhasin",
         icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "UC Berkeley",
+      degree: "Entreprenuership and Technology, Sociology",
     },
   ],
   work: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: ["Remote"],
-      title: "Senior Full Stack Developer",
+      company: "Sotira",
+      link: "https://www.sotira.co/",
+      title: "Co-Founder and CEO",
       logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
       description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+        "Sotira is an integrated marketplace that uses artificial intelligence to bundle inventory and match suppliers to buyers. Sotira enables suppliers to get a return on their surplus inventory and cash upfront and saves buyers time and labor in sourcing, negotiating and purchasing top quality goods.",
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
-      description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: [],
-      title: "Android Developer → Lead Android Developer",
+      company: "Soma Capital",
+      link: "https://www.google.com/url?q=https://medium.com/@vishnunagasrinivasan/announcing-the-soma-fellowship-ad0beac55372&sa=D&source=docs&ust=1707957778385100&usg=AOvVaw1Zi4gUU9N-6E8pms_ohZ93",
+      title: "Startup Founder Fellow",
       logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
       description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
+        "Selected as 1 of 28 companies out of 700 applications for the Soma Capital Fellowship for first time founders.",
+    },
+       {
+      company: "Blackstone Launchpad",
+      link: "https://clevertech.biz",
+      title: "Startup Founder Fellow",
+      logo: ClevertechLogo,
+      description:
+        "Received Blackstone LaunchPad Fellowship grant in partnership with Future Founders.",
     },
     {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
+      company: "Ethereum Foundation",
+      link: "https://amritabhasin.medium.com/my-experience-as-an-ethereum-foundation-devcon-scholar-in-bogota-colombia-1b41cbd290b3",
+      title: "Devcon Scholar",
       logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
+      description: "Selected as 1 of 50 scholars and one of only a few Americans out of 400 applicants. Received full travel and hotel sponsorship to attend Devcon in Bogota, Colombia and connect with others in the Ethereum ecosystem and discuss my projects and ideas for public goods, regenerative finance and defi lending.",
     },
-  ],
-  skills: [
-    "JavaScript",
-    "TypeScript",
-    "React/Next.js/Remix",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+       {
+      company: "Talent Protocol",
+      link: "https://amritabhasin.medium.com/my-experience-as-an-ethereum-foundation-devcon-scholar-in-bogota-colombia-1b41cbd290b3",
+      title: "Talent House Grant Finalist",
+      logo: NSNLogo,
+      description: "Selected as 1 of 12 finalists to receive a grant from Talent Protocol.",
+    },
   ],
   projects: [
     {
