@@ -30,6 +30,8 @@ export const RESUME_DATA = {
    past professional experience:
     "I have previous experience at Google working with SMBs and turned down an offer on Meta's commerce operations team to build Sotira.",
   
+  //avatarUrl: {}, 
+      
   contact: {
     email: "amrita@sotira.co",
     social: [
