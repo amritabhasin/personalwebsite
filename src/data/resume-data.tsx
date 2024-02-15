@@ -30,8 +30,6 @@ export const RESUME_DATA = {
    past professional experience:
     "I have previous experience at Google working with SMBs and turned down an offer on Meta's commerce operations team to build Sotira.",
   
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
   contact: {
     email: "amrita@sotira.co",
     social: [
@@ -50,7 +48,6 @@ export const RESUME_DATA = {
   education: [
     {
       school: "UC Berkeley",
-      degree: "Entreprenuership and Technology, Sociology",
     },
   ],
   work: [
@@ -58,7 +55,7 @@ export const RESUME_DATA = {
       company: "Sotira",
       link: "https://www.sotira.co/",
       title: "Co-Founder and CEO",
-      logo: ParabolLogo,
+      //logo: ParabolLogo,
       description:
         "Sotira is an integrated marketplace that uses artificial intelligence to bundle inventory and match suppliers to buyers. Sotira enables suppliers to get a return on their surplus inventory and cash upfront and saves buyers time and labor in sourcing, negotiating and purchasing top quality goods.",
     },
@@ -66,7 +63,7 @@ export const RESUME_DATA = {
       company: "Soma Capital",
       link: "https://www.google.com/url?q=https://medium.com/@vishnunagasrinivasan/announcing-the-soma-fellowship-ad0beac55372&sa=D&source=docs&ust=1707957778385100&usg=AOvVaw1Zi4gUU9N-6E8pms_ohZ93",
       title: "Startup Founder Fellow",
-      logo: JojoMobileLogo,
+     //logo: JojoMobileLogo,
       description:
         "Selected as 1 of 28 companies out of 700 applications for the Soma Capital Fellowship for first time founders.",
     },
@@ -74,7 +71,7 @@ export const RESUME_DATA = {
       company: "Blackstone Launchpad",
       link: "https://clevertech.biz",
       title: "Startup Founder Fellow",
-      logo: ClevertechLogo,
+      //logo: ClevertechLogo,
       description:
         "Received Blackstone LaunchPad Fellowship grant in partnership with Future Founders.",
     },
@@ -82,18 +79,18 @@ export const RESUME_DATA = {
       company: "Ethereum Foundation",
       link: "https://amritabhasin.medium.com/my-experience-as-an-ethereum-foundation-devcon-scholar-in-bogota-colombia-1b41cbd290b3",
       title: "Devcon Scholar",
-      logo: NSNLogo,
+      //logo: NSNLogo,
       description: "Selected as 1 of 50 scholars and one of only a few Americans out of 400 applicants. Received full travel and hotel sponsorship to attend Devcon in Bogota, Colombia and connect with others in the Ethereum ecosystem and discuss my projects and ideas for public goods, regenerative finance and defi lending.",
     },
        {
       company: "Talent Protocol",
       link: "https://amritabhasin.medium.com/my-experience-as-an-ethereum-foundation-devcon-scholar-in-bogota-colombia-1b41cbd290b3",
       title: "Talent House Grant Finalist",
-      logo: NSNLogo,
+      //logo: NSNLogo,
       description: "Selected as 1 of 12 finalists to receive a grant from Talent Protocol.",
     },
-  ],
-  projects: [
+  ]/*,
+  `  projects: [
     {
       title: "Consultly",
       techStack: [
@@ -254,5 +251,5 @@ export const RESUME_DATA = {
         "Video streaming mobile application for Canal Digital subscribers",
       logo: CDGOLogo,
     },
-  ],
+  ],*/
 } as const;
