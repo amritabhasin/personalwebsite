@@ -45,13 +45,13 @@ export const RESUME_DATA = {
         name: "X",
         url: "https://twitter.com/amritakbhasin",
         icon: XIcon,
-      },
+      }
     ],
   },
   education: [
     {
-      school: "UC Berkeley",
-    },
+      school: "UC Berkeley"
+    }
   ],
   work: [
     {
