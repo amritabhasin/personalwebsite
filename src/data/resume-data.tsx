@@ -33,6 +33,7 @@ export const RESUME_DATA = {
   //avatarUrl: {}, 
       
   contact: {
+    tel:,
     email: "amrita@sotira.co",
     social: [
       {
