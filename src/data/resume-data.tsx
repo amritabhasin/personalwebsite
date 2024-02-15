@@ -29,8 +29,8 @@ export const RESUME_DATA = {
 ///notsurewherebelowgoes
    past:
     "I have previous experience at Google working with SMBs and turned down an offer on Meta's commerce operations team to build Sotira.",
-  
-  //avatarUrl: {}, 
+
+    avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
       
   contact: {
     tel:,
