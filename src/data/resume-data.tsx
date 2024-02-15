@@ -27,8 +27,8 @@ export const RESUME_DATA = {
   summary:
     "I am the Co-Founder Sotira, a startup to enable instant commerce companies to offload and monetize surplus inventory. I'm a builder at heart and I love hacking on random side projects that intrigue me. Areas I'm curious about are recommerce, circular economy, reverse logistics, third spaces, network states, tokentization and building tech for underserved industries largely ignored by Silicon Valley.",
 ///notsurewherebelowgoes
-   past professional experience:
-    "I have previous experience at Google working with SMBs and turned down an offer on Meta's commerce operations team to build Sotira.",
+   //past professional experience:
+    //"I have previous experience at Google working with SMBs and turned down an offer on Meta's commerce operations team to build Sotira.",
     avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
       
   contact: {
