@@ -122,7 +122,7 @@ export default function Page() {
                       </span>
                     </h3>
                     <div className="text-sm tabular-nums text-gray-500">
-                      {RESUME_DATA.work.start} - {work.end}
+                      {RESUME_DATA.work.start} - {RESUME_DATA.work.end}
                     </div>
                   </div>
 
