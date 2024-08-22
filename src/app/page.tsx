@@ -37,8 +37,6 @@ export default function Page() {
               {RESUME_DATA.contact.email && (
                 <Button
                   className="size-8"
-                  variant="outline"
-                  size="icon"
                   asChild
                 >
                   <a href={`mailto:${RESUME_DATA.contact.email}`}>
@@ -49,8 +47,6 @@ export default function Page() {
               {RESUME_DATA.contact.tel && (
                 <Button
                   className="size-8"
-                  variant="outline"
-                  size="icon"
                   asChild
                 >
                   <a href={`tel:${RESUME_DATA.contact.tel}`}>
@@ -62,8 +58,6 @@ export default function Page() {
                 <Button
                   key={social.name}
                   className="size-8"
-                  variant="outline"
-                  size="icon"
                   asChild
                 >
                   <a href={social.url}>
@@ -96,6 +90,8 @@ export default function Page() {
             {RESUME_DATA.summary}
           </p>
         </Section>
+        {/* Commented out sections for future implementation */}
+        {/* 
         <Section>
           <h2 className="text-xl font-bold">Work Experience</h2>
           {RESUME_DATA.work.map((work) => (
@@ -122,8 +118,6 @@ export default function Page() {
           ))}
         </Section>
 
-        {/* Commented out sections for future implementation */}
-        {/* 
         <Section>
           <h2 className="text-xl font-bold">Education</h2>
           {RESUME_DATA.education.map((education) => (
