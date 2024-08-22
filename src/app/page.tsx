@@ -119,12 +119,12 @@ export default function Page() {
                             {badge}
                           </Badge>
                         ))}
-                      </span>*/}
+                      </span>
                     </h3>
                     <div className="text-sm tabular-nums text-gray-500">
                       {RESUME_DATA.work.start} - {RESUME_DATA.work.end}
                     </div>
-                  </div>
+                  </div>*/}
 
                   <h4 className="font-mono text-sm leading-none">
                     {RESUME_DATA.work.title}
@@ -137,6 +137,7 @@ export default function Page() {
             );
           })}
         </Section>
+        {/*
         <Section>
           <h2 className="text-xl font-bold">Education</h2>
           {RESUME_DATA.education.map((education) => {
@@ -165,7 +166,7 @@ export default function Page() {
             })}
           </div>
         </Section>
-
+        {
         <Section className="print-force-new-page scroll-mb-16">
           <h2 className="text-xl font-bold">Projects</h2>
           <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
@@ -181,7 +182,7 @@ export default function Page() {
               );
             })}
           </div>
-        </Section>
+        </Section>*/}
       </section>
 
       <CommandMenu
