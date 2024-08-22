@@ -32,7 +32,7 @@ export const RESUME_DATA = {
     avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
       
   contact: {
-    tel:,
+    tel:"",
     email: "amrita@sotira.co",
     social: [
       {
