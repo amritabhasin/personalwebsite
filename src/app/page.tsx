@@ -109,7 +109,7 @@ export default function Page() {
                         {work.company}
                       </a>
 
-                      <span className="inline-flex gap-x-1">
+                      /*<span className="inline-flex gap-x-1">
                         {work.badges.map((badge) => (
                           <Badge
                             variant="secondary"
@@ -119,7 +119,7 @@ export default function Page() {
                             {badge}
                           </Badge>
                         ))}
-                      </span>
+                      </span>*/
                     </h3>
                     <div className="text-sm tabular-nums text-gray-500">
                       {work.start} - {work.end}
