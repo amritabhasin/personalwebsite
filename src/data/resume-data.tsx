@@ -52,6 +52,7 @@ export const RESUME_DATA = {
       school: "UC Berkeley"
     }
   ],
+  personalWebsiteUrl: "amritabhasin.com",
   work: [
     {
       company: "Sotira",
