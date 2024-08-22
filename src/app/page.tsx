@@ -109,8 +109,8 @@ export default function Page() {
                         {work.company}
                       </a>
 
-                      {/*<span className="inline-flex gap-x-1">
-                        {work.badges.map((badge) => (
+                      <span className="inline-flex gap-x-1">
+                        {RESUME_DATA.work.badges.map((badge) => (
                           <Badge
                             variant="secondary"
                             className="align-middle text-xs"
@@ -119,19 +119,19 @@ export default function Page() {
                             {badge}
                           </Badge>
                         ))}
-                      </span>*/}
+                      </span>
                     </h3>
                     <div className="text-sm tabular-nums text-gray-500">
-                      {work.start} - {work.end}
+                      {RESUME_DATA.work.start} - {work.end}
                     </div>
                   </div>
 
                   <h4 className="font-mono text-sm leading-none">
-                    {work.title}
+                    {RESUME_DATA.work.title}
                   </h4>
                 </CardHeader>
                 <CardContent className="mt-2 text-xs">
-                  {work.description}
+                  {RESUME_DATA.work.description}
                 </CardContent>
               </Card>
             );
