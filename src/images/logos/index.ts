@@ -18,7 +18,7 @@ import Minimal from "./minimal.svg";
 import AmmieTwitter from "./ammie_twitter.png"
 
 export {
-  AmmieTwitter
+  AmmieTwitter,
   ConsultlyLogo,
   AmbitLogo,
   BarepapersLogo,
