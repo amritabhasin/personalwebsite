@@ -50,7 +50,10 @@ export const RESUME_DATA = {
   },
   education: [
     {
-      school: "UC Berkeley"
+      school: "UC Berkeley",
+      start: "xxxx",
+      end: "xxxx",
+      degree:"xxxx"
     }
   ],
   personalWebsiteUrl: "amritabhasin.com",

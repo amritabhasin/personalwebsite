@@ -90,8 +90,7 @@ export default function Page() {
             {RESUME_DATA.summary}
           </p>
         </Section>
-        {/* Commented out sections for future implementation */}
-        {/* 
+        
         <Section>
           <h2 className="text-xl font-bold">Work Experience</h2>
           {RESUME_DATA.work.map((work) => (
@@ -128,7 +127,7 @@ export default function Page() {
                     {education.school}
                   </h3>
                   <div className="text-sm tabular-nums text-gray-500">
-                    {education.start} - {education.end}
+                    {`${education.start} - ${education.end}`}
                   </div>
                 </div>
               </CardHeader>
@@ -137,6 +136,8 @@ export default function Page() {
           ))}
         </Section>
 
+        {/* Commented out sections for future implementation */}
+        {/* 
         <Section>
           <h2 className="text-xl font-bold">Skills</h2>
           <div className="flex flex-wrap gap-1">
