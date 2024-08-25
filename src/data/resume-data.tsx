@@ -23,15 +23,12 @@ import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 export const RESUME_DATA = {
   name: "Amrita Bhasin",
   location: "Menlo Park, CA",
-  about:
-    "Founder, Builder, Hacker and Writer",
-  summary:
-    "I am the co-founder of Sotira, a venture backed startup in the supply chain and logistics space. We provide workflow and compliance automation software for surplus inventory offloading, transacting, and logistics. I'm a builder at heart and I love hacking on random side projects that intrigue me. Areas I'm curious about are recommerce, circular economy, reverse logistics, third spaces, network states, tokentization and building tech for underserved industries largely ignored by Silicon Valley.",
- "I am a Silicon Valley native and UC Berkeley alumni.",
+  about: "Founder, Builder, Hacker and Writer",
+  summary: "I am the co-founder of Sotira, a venture backed startup in the supply chain and logistics space. We provide workflow and compliance automation software for surplus inventory offloading, transacting, and logistics. I'm a builder at heart and I love hacking on random side projects that intrigue me. Areas I'm curious about are recommerce, circular economy, reverse logistics, third spaces, network states, tokentization and building tech for underserved industries largely ignored by Silicon Valley. I am a Silicon Valley native and UC Berkeley alumni.",
   ///notsurewherebelowgoes
    //past professional experience:
     //"I have previous experience at Google working with SMBs and turned down an offer on Meta's commerce operations team to build Sotira.",
-    avatarUrl: AmmieTwitter.src,
+  avatarUrl: AmmieTwitter.src,
       
   contact: {
     tel:"",
@@ -54,7 +51,7 @@ export const RESUME_DATA = {
       school: "UC Berkeley",
      // start: "xxxx",
    //   end: "xxxx",
-      Concentration:"Sociology, Technology and Entrepreneurship, Blockchain", 
+      Concentration:"Sociology, Technology and Entrepreneurship, Blockchain"
     }
   ],
   personalWebsiteUrl: "amritabhasin.com",
