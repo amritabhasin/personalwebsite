@@ -93,6 +93,9 @@ export default function Page() {
         
         <Section>
           <h2 className="text-xl font-bold">Work Experience</h2>
+          <Avatar className="size-28">
+            <AvatarImage alt={RESUME_DATA.name} src={RESUME_DATA.avatarUrl} />
+          </Avatar>
           {RESUME_DATA.work.map((work) => (
             <Card key={work.company}>
               <CardHeader>
@@ -102,9 +105,6 @@ export default function Page() {
                       {work.company}
                     </a>
                   </h3>
-                  <Avatar className="size-28">
-                    <AvatarImage alt={RESUME_DATA.name} src={RESUME_DATA.avatarUrl} />
-                  </Avatar>
                   <div className="text-sm tabular-nums text-gray-500">
                     {`${work.start} - ${work.end}`} w
                   </div>
