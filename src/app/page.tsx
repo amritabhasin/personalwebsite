@@ -94,12 +94,9 @@ export default function Page() {
         
         <Section>
           <h2 className="text-xl font-bold">Work Experience</h2>
-          
-          {RESUME_DATA.work.map((work) => (
-            <Avatar key={work.company} className="size-28">
-              <AvatarImage alt={work.company} src={RESUME_DATA.avatarUrl} />
-            </Avatar>
-          ))}
+            <Avatar key="twitter-pic" className="size-28">
+              <AvatarImage alt={RESUME_DATA.avatarUrl} src={RESUME_DATA.avatarUrl} />
+            </Avatar>         
           {RESUME_DATA.work.map((work) => (
             <Card key={work.company}>
               <CardHeader>
