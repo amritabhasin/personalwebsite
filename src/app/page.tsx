@@ -98,10 +98,13 @@ export default function Page() {
               <CardHeader>
                 <div className="flex items-center justify-between gap-x-2 text-base">
                   <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
-                    <a className="hover:underline" href={work.link}>
+                    <a className="hover:underline" /*href={work.link}*/>
                       {work.company}
                     </a>
                   </h3>
+                  <Avatar className="size-28">
+                    <AvatarImage alt={RESUME_DATA.name} src={RESUME_DATA.avatarUrl} />
+                  </Avatar>
                   <div className="text-sm tabular-nums text-gray-500">
                     {`${work.start} - ${work.end}`} w
                   </div>
@@ -127,11 +130,14 @@ export default function Page() {
                     {education.school}
                   </h3>
                   <div className="text-sm tabular-nums text-gray-500">
-                    {`${education.start} - ${education.end}`}
+                    {/*TODO*/}
+                    {/*{`${education.start} - ${education.end}`}*/}
                   </div>
                 </div>
               </CardHeader>
-              <CardContent className="mt-2">{education.degree}</CardContent>
+                                  {/*TODO*/}
+
+              {/*<CardContent className="mt-2">{education.degree}</CardContent>*/}
             </Card>
           ))}
         </Section>
