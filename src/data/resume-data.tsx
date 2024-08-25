@@ -24,10 +24,11 @@ export const RESUME_DATA = {
   name: "Amrita Bhasin",
   location: "Menlo Park, CA",
   about:
-    "Founder, Builder and Hacker",
+    "Founder, Builder, Hacker and Writer",
   summary:
     "I am the co-founder of Sotira, a venture backed startup in the supply chain and logistics space. We provide workflow and compliance automation software for surplus inventory offloading, transacting, and logistics. I'm a builder at heart and I love hacking on random side projects that intrigue me. Areas I'm curious about are recommerce, circular economy, reverse logistics, third spaces, network states, tokentization and building tech for underserved industries largely ignored by Silicon Valley.",
-///notsurewherebelowgoes
+ "I am a Silicon Valley native and UC Berkeley alumni.",
+  ///notsurewherebelowgoes
    //past professional experience:
     //"I have previous experience at Google working with SMBs and turned down an offer on Meta's commerce operations team to build Sotira.",
     avatarUrl: AmmieTwitter.src,
@@ -53,7 +54,7 @@ export const RESUME_DATA = {
       school: "UC Berkeley",
      // start: "xxxx",
    //   end: "xxxx",
-      Concentration:"Sociology, Technology and Entrepreneurship, Blockchain"
+      Concentration:"Sociology, Technology and Entrepreneurship, Blockchain", 
     }
   ],
   personalWebsiteUrl: "amritabhasin.com",
@@ -68,6 +69,26 @@ export const RESUME_DATA = {
       description:
         "Workflow and compliance automation software for surplus inventory offloading, transacting, and logistics",
     },
+      {
+      company: "Keel",
+      // link: "https://clevertech.biz",
+      title: "Founder in Residence",
+     // start: "2024",
+     // end: "xxxx",
+      //logo: ClevertechLogo,
+      description:
+        "Selected for Founder in Residence program in NYC for summer 2024.",
+    },
+     {
+      company: "Roux Institute, Northeastern University",
+      link: "https://www.mainebiz.biz/article/roux-institute-picks-10-startups-for-its-next-founder-residency",
+      title: "Startup Founder Fellow",
+      start: "2023-2024",
+    //  end: "xxxx",
+     //logo: JojoMobileLogo,
+      description:
+        "Selected as 1 of 10 companies from all over the world for the Founder Residency.",
+    },
     {
       company: "Soma Capital",
       link: "https://www.google.com/url?q=https://medium.com/@vishnunagasrinivasan/announcing-the-soma-fellowship-ad0beac55372&sa=D&source=docs&ust=1707957778385100&usg=AOvVaw1Zi4gUU9N-6E8pms_ohZ93",
@@ -80,10 +101,10 @@ export const RESUME_DATA = {
     },
        {
       company: "Blackstone Launchpad",
-      link: "https://clevertech.biz",
+      // link: "https://clevertech.biz",
       title: "Startup Founder Fellow",
-      start: "xxxx",
-      end: "xxxx",
+      start: "2022",
+     // end: "xxxx",
       //logo: ClevertechLogo,
       description:
         "Received Blackstone LaunchPad Fellowship grant in partnership with Future Founders.",
@@ -92,8 +113,8 @@ export const RESUME_DATA = {
       company: "Ethereum Foundation",
       link: "https://amritabhasin.medium.com/my-experience-as-an-ethereum-foundation-devcon-scholar-in-bogota-colombia-1b41cbd290b3",
       title: "Devcon Scholar",
-      start: "xxxx",
-      end: "xxxx",
+      start: "2022",
+     // end: "xxxx",
       //logo: NSNLogo,
       description: "Selected as 1 of 50 scholars and one of only a few Americans out of 400 applicants. Received full travel and hotel sponsorship to attend Devcon in Bogota, Colombia and connect with others in the Ethereum ecosystem and discuss my projects and ideas for public goods, regenerative finance and defi lending.",
     },
@@ -101,8 +122,8 @@ export const RESUME_DATA = {
       company: "Talent Protocol",
       link: "https://amritabhasin.medium.com/my-experience-as-an-ethereum-foundation-devcon-scholar-in-bogota-colombia-1b41cbd290b3",
       title: "Talent House Grant Finalist",
-      start: "xxxx",
-      end: "xxxx",
+      start: "2022",
+     // end: "xxxx",
       //logo: NSNLogo,
       description: "Selected as 1 of 12 finalists to receive a grant from Talent Protocol.",
     },
