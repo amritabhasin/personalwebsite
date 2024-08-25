@@ -22,11 +22,11 @@ import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
   name: "Amrita Bhasin",
-  location: "San Francisco, CA",
+  location: "Menlo Park, CA",
   about:
     "Founder, Builder and Hacker",
   summary:
-    "I am the Co-Founder Sotira, a startup to enable instant commerce companies to offload and monetize surplus inventory. I'm a builder at heart and I love hacking on random side projects that intrigue me. Areas I'm curious about are recommerce, circular economy, reverse logistics, third spaces, network states, tokentization and building tech for underserved industries largely ignored by Silicon Valley.",
+    "I am the co-founder of Sotira, a venture backed startup in the supply chain and logistics space. We provide workflow and compliance automation software for surplus inventory offloading, transacting, and logistics. I'm a builder at heart and I love hacking on random side projects that intrigue me. Areas I'm curious about are recommerce, circular economy, reverse logistics, third spaces, network states, tokentization and building tech for underserved industries largely ignored by Silicon Valley.",
 ///notsurewherebelowgoes
    //past professional experience:
     //"I have previous experience at Google working with SMBs and turned down an offer on Meta's commerce operations team to build Sotira.",
@@ -51,9 +51,9 @@ export const RESUME_DATA = {
   education: [
     {
       school: "UC Berkeley",
-      start: "xxxx",
-      end: "xxxx",
-      degree:"xxxx"
+     // start: "xxxx",
+   //   end: "xxxx",
+      Concentration:"Sociology, Technology and Entrepreneurship, Blockchain"
     }
   ],
   personalWebsiteUrl: "amritabhasin.com",
@@ -62,18 +62,18 @@ export const RESUME_DATA = {
       company: "Sotira",
       link: "https://www.sotira.co/",
       title: "Co-Founder and CEO",
-      start: "xxxx",
-      end: "xxxx",
+     // start: "xxxx",
+     // end: "xxxx",
       //logo: ParabolLogo,
       description:
-        "Sotira is an integrated marketplace that uses artificial intelligence to bundle inventory and match suppliers to buyers. Sotira enables suppliers to get a return on their surplus inventory and cash upfront and saves buyers time and labor in sourcing, negotiating and purchasing top quality goods.",
+        "Workflow and compliance automation software for surplus inventory offloading, transacting, and logistics",
     },
     {
       company: "Soma Capital",
       link: "https://www.google.com/url?q=https://medium.com/@vishnunagasrinivasan/announcing-the-soma-fellowship-ad0beac55372&sa=D&source=docs&ust=1707957778385100&usg=AOvVaw1Zi4gUU9N-6E8pms_ohZ93",
       title: "Startup Founder Fellow",
-      start: "xxxx",
-      end: "xxxx",
+      start: "2022",
+    //  end: "xxxx",
      //logo: JojoMobileLogo,
       description:
         "Selected as 1 of 28 companies out of 700 applications for the Soma Capital Fellowship for first time founders.",
