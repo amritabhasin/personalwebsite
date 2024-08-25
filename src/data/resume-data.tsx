@@ -16,7 +16,8 @@ import {
   ParabolLogo,
   TastyCloudLogo,
   YearProgressLogo,
-  AmmieTwitter
+  AmmieTwitter,
+  CompanyLogo
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
@@ -29,6 +30,7 @@ export const RESUME_DATA = {
    //past professional experience:
     //"I have previous experience at Google working with SMBs and turned down an offer on Meta's commerce operations team to build Sotira.",
   avatarUrl: AmmieTwitter.src,
+  companyLogoUrl: CompanyLogo.src,
       
   contact: {
     tel:"",

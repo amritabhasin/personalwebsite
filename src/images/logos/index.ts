@@ -16,8 +16,10 @@ import TastyCloudLogo from "./tastycloud.png";
 import YearProgressLogo from "./yearprogress.svg";
 import Minimal from "./minimal.svg";
 import AmmieTwitter from "./ammie_twitter.jpg"
+import CompanyLogo from "./sotira.png"
 
 export {
+  CompanyLogo,
   AmmieTwitter,
   ConsultlyLogo,
   AmbitLogo,

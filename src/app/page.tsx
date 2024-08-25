@@ -79,10 +79,11 @@ export default function Page() {
               )}
             </div>
           </div>
-
-          <Avatar className="size-28">
-            <AvatarImage alt={RESUME_DATA.name} src={RESUME_DATA.avatarUrl} />
-          </Avatar>
+          {RESUME_DATA.work.map((work) => (
+            <Avatar className="size-28">
+              <AvatarImage alt={work.company} src={RESUME_DATA.companyLogoUrl} />
+            </Avatar>
+          ))}
         </div>
         <Section>
           <h2 className="text-xl font-bold">About</h2>
@@ -94,7 +95,9 @@ export default function Page() {
         <Section>
           <h2 className="text-xl font-bold">Work Experience</h2>
           <Avatar className="size-28">
-            <AvatarImage alt={RESUME_DATA.name} src={RESUME_DATA.avatarUrl} />
+          {RESUME_DATA.work.map((work) => (
+            <AvatarImage alt={work.company} src={RESUME_DATA.avatarUrl} />
+          ))}
           </Avatar>
           {RESUME_DATA.work.map((work) => (
             <Card key={work.company}>
