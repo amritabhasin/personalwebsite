@@ -80,7 +80,7 @@ export default function Page() {
             </div>
           </div>
           {RESUME_DATA.work.map((work) => (
-            <Avatar className="size-28">
+            <Avatar key={work.company} className="size-28">
               <AvatarImage alt={work.company} src={RESUME_DATA.companyLogoUrl} />
             </Avatar>
           ))}
