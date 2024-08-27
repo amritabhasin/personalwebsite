@@ -80,7 +80,7 @@ export default function Page() {
             </div>
           </div>
           
-          <Avatar key={"twitter-image"} variant="round" className="size-28">
+          <Avatar key={"twitter-image"} className="size-28">
             <AvatarImage alt={RESUME_DATA.avatarUrl} src={RESUME_DATA.avatarUrl} />
           </Avatar>
           
