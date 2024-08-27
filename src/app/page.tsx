@@ -47,25 +47,25 @@ export default function Page() {
                 //</Button>
               )}
               {RESUME_DATA.contact.tel && (
-                <Button
-                  className="size-8"
-                  asChild
-                >
+                // <Button
+                //   className="size-8"
+                //   asChild
+                // >
                   <a href={`tel:${RESUME_DATA.contact.tel}`}>
                     <PhoneIcon className="size-4" />
                   </a>
-                </Button>
+                //</Button>
               )}
               {RESUME_DATA.contact.social.map((social) => (
-                <Button
-                  key={social.name}
-                  className="size-8"
-                  asChild
-                >
+                // <Button
+                //   key={social.name}
+                //   className="size-8"
+                //   asChild
+                // >
                   <a href={social.url}>
                     <social.icon className="size-4" />
                   </a>
-                </Button>
+                //</Button>
               ))}
             </div>
             <div className="hidden flex-col gap-x-1 font-mono text-sm text-muted-foreground print:flex">
