@@ -38,7 +38,7 @@ export default function Page() {
                 <Button
                   className="size-8"
                   asChild
-                  style={{ backgroundColor: 'transparent' }}
+                  //style={{ backgroundColor: 'transparent' }}
                 >
                   <a href={`mailto:${RESUME_DATA.contact.email}`} 
                   >
