@@ -35,16 +35,16 @@ export default function Page() {
             </p>
             <div className="flex gap-x-1 pt-1 font-mono text-sm text-muted-foreground print:hidden">
               {RESUME_DATA.contact.email && (
-                <Button
-                  className="size-8"
-                  asChild
-                  //style={{ backgroundColor: 'transparent' }}
-                >
+                // <Button
+                //   className="size-8"
+                //   asChild
+                //   //style={{ backgroundColor: 'transparent' }}
+                // >
                   <a href={`mailto:${RESUME_DATA.contact.email}`} 
                   >
                     <MailIcon className="size-4" />
                   </a>
-                </Button>
+                //</Button>
               )}
               {RESUME_DATA.contact.tel && (
                 <Button
