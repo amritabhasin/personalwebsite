@@ -28,7 +28,6 @@ export default function Page() {
                 // href={RESUME_DATA.locationLink}
                 target="_blank"
                 rel="noopener noreferrer"
-                style={{ backgroundColor: 'transparent' }}  // Override bg-primary
               >
                 <GlobeIcon className="size-3" />
                 {RESUME_DATA.location}
@@ -40,7 +39,8 @@ export default function Page() {
                   className="size-8"
                   asChild
                 >
-                  <a href={`mailto:${RESUME_DATA.contact.email}`}>
+                  <a href={`mailto:${RESUME_DATA.contact.email}`} style={{ backgroundColor: 'transparent' }}  // Override bg-primary
+                  >
                     <MailIcon className="size-4" />
                   </a>
                 </Button>
