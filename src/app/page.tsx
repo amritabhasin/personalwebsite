@@ -62,7 +62,7 @@ export default function Page() {
                 //   className="size-8"
                 //   asChild
                 // >
-                  <a href={social.url}>
+                  <a key={social.url} href={social.url}>
                     <social.icon className="size-4" />
                   </a>
                 //</Button>
