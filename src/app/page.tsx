@@ -3,7 +3,7 @@ import { Card, CardHeader, CardContent } from "@/components/ui/card";
 import { CommandMenu } from "@/components/command-menu";
 import { Metadata } from "next";
 import { Section } from "@/components/ui/section";
-import { Globe, MailIcon, PhoneIcon } from "lucide-react";
+import { GlobeIcon, MailIcon, PhoneIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { RESUME_DATA } from "@/data/resume-data";
 
@@ -28,8 +28,9 @@ export default function Page() {
                 // href={RESUME_DATA.locationLink}
                 target="_blank"
                 rel="noopener noreferrer"
+                style={{ backgroundColor: 'transparent' }}  // Override bg-primary
               >
-                <Globe className="size-3" style={{ color: 'inherit' }}/>
+                <GlobeIcon className="size-3" />
                 {RESUME_DATA.location}
               </a>
             </p>
