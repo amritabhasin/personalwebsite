@@ -38,8 +38,9 @@ export default function Page() {
                 <Button
                   className="size-8"
                   asChild
+                  style={{ backgroundColor: 'transparent' }}
                 >
-                  <a href={`mailto:${RESUME_DATA.contact.email}`} style={{ backgroundColor: 'transparent' }}  // Override bg-primary
+                  <a href={`mailto:${RESUME_DATA.contact.email}`} 
                   >
                     <MailIcon className="size-4" />
                   </a>
