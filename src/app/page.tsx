@@ -112,7 +112,7 @@ export default function Page() {
                     </a>
                   </h3>
                   <div className="text-sm tabular-nums text-gray-500">
-                    {`${work.start} - ${work.end}`} w
+                    {`${work.start} - ${work.end}`} 
                   </div>
                 </div>
                 <h4 className="font-mono text-sm leading-none">
