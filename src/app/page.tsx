@@ -99,7 +99,7 @@ export default function Page() {
         
         <Section>
           <h2 className="text-xl font-bold">Work Experience</h2>
-            <Avatar key="twitter-pic" className="size-28" style={{ width: '100px', height: '100px' }}>
+            <Avatar key="twitter-pic" className="size-28" style={{ margin: '0', padding: '0', width: '100px', height: '100px' }}>
               <AvatarImage
                 alt="Sotira Logo"
                 src={RESUME_DATA.companyLogoUrl}
