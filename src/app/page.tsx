@@ -99,9 +99,14 @@ export default function Page() {
         
         <Section>
           <h2 className="text-xl font-bold">Work Experience</h2>
-            <Avatar key="twitter-pic" className="size-28">
-              <AvatarImage alt={RESUME_DATA.companyLogoUrl} src={RESUME_DATA.companyLogoUrl} />
-            </Avatar>         
+            <Avatar key="twitter-pic" className="size-28" style={{ width: '100px', height: '100px' }}>
+              <AvatarImage
+                alt="Sotira Logo"
+                src={RESUME_DATA.companyLogoUrl}
+                style={{ objectFit: 'contain', width: '100%', height: '100%' }} // Ensures the image scales properly within the Avatar
+              />
+            </Avatar>
+         
           {RESUME_DATA.work.map((work) => (
             <Card key={work.company}>
               <CardHeader>
