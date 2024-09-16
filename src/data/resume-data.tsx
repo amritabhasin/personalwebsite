@@ -63,7 +63,7 @@ export const RESUME_DATA = {
       link: "https://www.sotira.co/",
       title: "Co-Founder and CEO",
       start: "2023",
-      end: "2023",
+      end: "Present",
       //logo: ParabolLogo,
       description:
         "Workflow and compliance automation software for surplus inventory offloading, transacting, and logistics",
@@ -72,8 +72,8 @@ export const RESUME_DATA = {
       company: "Keel",
       // link: "https://clevertech.biz",
       title: "Founder in Residence",
-      start: "2023",
-      end: "2023",
+      start: "2024",
+      end: "2024",
       //logo: ClevertechLogo,
       description:
         "Selected for Founder in Residence program in NYC for summer 2024.",

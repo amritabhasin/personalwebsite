@@ -65,23 +65,12 @@
     --ring: 216 12.2% 83.9%;
   }
 
-  /* CSS for Work Experience heading */
-  .work-experience-class {
-    margin-bottom: 10px; /* Adjust the space between the header and logo */
-    line-height: 1.2; /* Adjust the line height to reduce vertical space */
+  img {
+    max-width: 150px;  /* Ensure the logo doesn’t exceed 150px in width */
+    height: auto;      /* Maintain aspect ratio */
   }
-
-  /* CSS for Avatar (logo) */
-  .avatar-class img {
-    display: inline-block; /* Ensure the image is not treated as a block element */
-    margin: 0; /* Remove any extra margin around the image */
-    padding: 0; /* Remove extra padding */
-    width: 100%; /* Ensure it scales within the container */
-    height: 100%;
-    object-fit: contain;
-  }
-
   
+
 }
 
 @layer base {
